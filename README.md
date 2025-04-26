@@ -1,6 +1,6 @@
 # Android Jetpack Compose skeleton
 
-Skeleton for Android Jetpack Compose apps
+Android app skeleton for a quick start with Android Jetpack Compose
 
 Features (10% finished)
 * Follows best practices and guidelines on recommended architecture
