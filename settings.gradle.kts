@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "android-skeleton-compose"
+rootProject.name = "android-compose-skeleton"
 include(":app")
