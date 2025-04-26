@@ -2,7 +2,7 @@
 
 Skeleton for Android Jetpack Compose apps
 
-Features
+Features (10% finished)
 * Follows best practices and guidelines on recommended architecture
 * completely written in Kotlin with Jetpack Compose
 * build with Gradle using Gradle Kotlin DSL
