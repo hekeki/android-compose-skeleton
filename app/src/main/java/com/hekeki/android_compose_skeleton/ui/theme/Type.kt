@@ -1,4 +1,4 @@
-package com.hekeki.androidskeletoncompose.ui.theme
+package com.hekeki.android_compose_skeleton.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

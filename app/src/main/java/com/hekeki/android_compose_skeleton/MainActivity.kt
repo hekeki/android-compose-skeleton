@@ -1,4 +1,4 @@
-package com.hekeki.androidskeletoncompose
+package com.hekeki.android_compose_skeleton
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -33,7 +33,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
-import com.hekeki.androidskeletoncompose.ui.theme.AndroidskeletoncomposeTheme
+import com.hekeki.android_compose_skeleton.ui.theme.AndroidskeletoncomposeTheme
+import com.hekeki.androidskeletoncompose.R
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,7 +42,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AndroidskeletoncomposeTheme {
-                AppBarExample()
+                DefaultAppBar()
             }
         }
     }
@@ -49,7 +50,7 @@ class MainActivity : ComponentActivity() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AppBarExample() {
+fun DefaultAppBar() {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior(rememberTopAppBarState())
     var expanded by remember { mutableStateOf(false) }
 

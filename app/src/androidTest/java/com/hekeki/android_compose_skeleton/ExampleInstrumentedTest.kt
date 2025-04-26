@@ -1,4 +1,4 @@
-package com.hekeki.androidskeletoncompose
+package com.hekeki.android_compose_skeleton
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
