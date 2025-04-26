@@ -1,4 +1,4 @@
-# android-compose-skeleton
+# Android Jetpack Compose skeleton
 
 Skeleton for Android Jetpack Compose apps
 
