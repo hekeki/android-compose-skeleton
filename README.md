@@ -1,1 +1,15 @@
 # android-compose-skeleton
+
+Skeleton for Android Jetpack Compose apps
+
+Features
+* Follows best practices and guidelines on recommended architecture
+* completely written in Kotlin with Jetpack Compose
+* build with Gradle using Gradle Kotlin DSL
+* Settings
+  * Dark, light and system theme
+  * dynamic colors
+  * multiple languages
+* About
+  * Version, Changelog, License, Source link and Bug-Report link
+  * Third party licenses section
